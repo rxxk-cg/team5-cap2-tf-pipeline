@@ -12,7 +12,7 @@ phases:
         commands:
            - echo pre_build stage on `date`
            - echo --- checking AWS creds ---
-           - aws s3 ls
+#           - aws s3 ls
     build:
         commands:
             - echo build stage on `date`

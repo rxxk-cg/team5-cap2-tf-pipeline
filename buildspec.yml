@@ -21,6 +21,7 @@ phases:
             - ls 
             - echo --- terraform init ---
             - terraform init
+            - terraform plan
             - echo --- terraform apply --- 
             #- terraform apply -auto-approve
     post_build:

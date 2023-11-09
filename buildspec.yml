@@ -23,7 +23,7 @@ phases:
             - terraform init
             - echo terraform plan
             - terraform plan
-            - echo --- terraform apply --- 
+            - echo --- terraform apply work --- 
             - terraform apply -auto-approve
     post_build:
         commands:
